@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.467">
+    <testcase classname="Aggiungo un appuntamento nel calendario" name="Aggiungo un appuntamento con un determinato paziente nel calendario" time="4.967">
+        <system-out>
+            <![CDATA[Given Open Browser..........................................................passed
+When I open the "http://localhost/".........................................passed
+And I do the login..........................................................passed
+And click on Calendario.....................................................passed
+And click on a day..........................................................passed
+And insert "Mario" and "Vitaglione".........................................passed
+And click on Aggiungi.......................................................passed
+Then you added the date "Mario" and "Vitaglione"............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

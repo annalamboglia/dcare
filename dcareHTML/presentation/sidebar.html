@@ -1,0 +1,105 @@
+<!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+  <!-- Sidebar - Brand -->
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/index.php">
+    <div class="sidebar-brand-icon">
+      <i class="fas fa-tooth"></i>
+    </div>
+    <div class="sidebar-brand-text mx-3">Dcare</div>
+  </a>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider my-0">
+
+  <!-- Nav Item - Dashboard -->
+  <li class="nav-item active">
+    <a class="nav-link" href="/index.php">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Dashboard</span></a>
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider">
+
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    Gestione Pazienti
+  </div>
+
+
+  <!-- Nav Item - Pazienti collapse menu -->
+  <li class="nav-item">
+
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pazientiCollapse" aria-expanded="true"
+      aria-controls="pazientiCollapse">
+      <i class="fa fa-male px-1"></i>
+      <span>Pazienti</span>
+    </a>
+
+    <div id="pazientiCollapse" class="collapse" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <!-- inserire link alle pagini -->
+        <a class="collapse-item" href="/presentation/pages/lista_pazienti.php">Lista pazienti</a>
+        <a class="collapse-item" href="/presentation/pages/dati_paziente.php">Aggiungi paziente</a>
+        <a class="collapse-item" href="/presentation/pages/lista_pazienti.php?cestino">Cestino</a>
+      </div>
+    </div>
+
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider">
+
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    Utilità
+  </div>
+
+  <!-- Nav Item - Calendario -->
+  <li class="nav-item">
+    <a class="nav-link" href="/presentation/pages/calendario.php">
+      <!-- Aggiungere link calendario-->
+      <i class="fas fa-calendar pl-1"></i>
+      <span>Calendario</span>
+    </a>
+  </li>
+
+  <!-- Nav Item - Prestazioni -->
+  <li class="nav-item">
+    <a class="nav-link" href="/presentation/pages/prestazioni.php">
+      <i class="fas fa-fw fa-table"></i>
+      <span>Prestazioni</span>
+    </a>
+  </li>
+
+  <!-- Nav Item - Impostazioni -->
+  <!-- Impostazioni nascoste per eventuali implementazioni future -->
+  <li class="nav-item d-none">
+
+    <a class="nav-link" href="#">
+      <i class="fas fa-fw fa-wrench"></i>
+      <span>Impostazioni</span>
+    </a>
+
+  </li>
+
+
+  <!-- Divider -->
+  <hr class="sidebar-divider d-none d-md-block">
+
+
+  <!-- Sidebar Toggler (Sidebar) -->
+  <div class="text-center d-none d-md-inline">
+    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+  </div>
+
+  <!-- Versione -->
+  <li class="nav-item mt-auto">
+    <div class="row no-gutters justify-content-start ml-1">
+      <span class="version">Versione: 1.1.1</span>
+    </div>
+  </li>
+
+</ul>
+<!-- End of Sidebar -->
